@@ -18,10 +18,13 @@
 
 
 
-function createHtmlElement(obj) {
-	return "<" + obj.element + " class=\"" + obj.classNames + "\">" + obj.textContent +"</" + obj.element + ">";
-}
+// function createHtmlElement(obj) {
+//   return "<" + obj.element + " class=\"" + obj.classNames + "\">" + obj.textContent +"</" + obj.element + ">";
+// }
 
+function createHtmlElement(obj) {
+  return `<${obj.element} class=\"${obj.classNames}\">${obj.textContent}</${obj.element}>`;
+}
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 
