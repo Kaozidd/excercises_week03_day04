@@ -1,5 +1,5 @@
-## Excercises
+# Excercises
 
-# Objects and Methods
+## Objects and Methods
 
 Week 3, Day 4
